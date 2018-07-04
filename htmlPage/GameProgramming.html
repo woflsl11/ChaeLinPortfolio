@@ -165,6 +165,7 @@ layout : default
       <li>STAGE의 전체 맵을 만들 때 도형의 배치도 같이 디자인한다.이때, 도형의 배치를 조절해서 유저가 도형을 건너 뛸 수 없는 환경을 구성한다.</li>
 
       <div class="row">
+        <br>
         <div class="col-sm-offset-2"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
       </div>
       <li>STAGE의 층수는 최대 3층을 넘지 않게 만들어 난이도 조절과 원활한 게임 진행 환경을 조성한다.</li>
@@ -225,5 +226,87 @@ layout : default
   </li>
   <!--아이템 end-->
 
+  <li><strong>사운드컨셉</strong><!--사운드컨셉-->
+    <ul>
+      <li><strong>BGM</strong>
+        <ul>
+          <li><strong>섬</strong> : 당차고 시원한 분위기. 기대와 돌발행동의 느낌</li>
+          <li><strong>육지</strong> : 신남과 설렘. 미지의 세계에 대한 약간의 두려움</li>
+          <li><strong>도시</strong> : 우울함과 힘듦. 생각했던 공간과는 다른 삭막함</li>
+          <li><strong>히든</strong> : 혼란스러움과 적막함. 약간의 희망과 몽환적인 분위기</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <!--사운드컨셉 end-->
 </ul>
 <!--게임컨셉 end-->
+
+<h4><strong>5. 게임결과</strong></h4><!--게임결과-->
+<ul>
+  <li><strong>게임진행도</strong><!--게임진행도-->
+    <div class="row">
+      <br>
+      <div class="col-sm-offset-2"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+    </div>
+  </li><!--게임진행도 end-->
+
+  <li><strong>Intro</strong><!--intro-->
+    <ul>
+      <div class="row">
+          <br>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-1"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+      </div>
+      <li>Scene 이름 : tutorial</li>
+      <li>게임의 스토리 이해와 시작을 위해 Animation으로 Intro를 만들었다.</li>
+    </ul>
+  </li>
+  <!--intro end-->
+
+  <li><strong>게임 시작 화면</strong><!--게임시작화면-->
+  <ul>
+    <div class="row">
+      <br>
+      <div class="col-sm-offset-2"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+    </div>
+  <li>Scene 이름 : Start_Scene</li>
+    <li><strong>1. Animation 효과</strong>
+      <ul>
+        <li>네모캐릭터 : 상·하 움직일 수 있도록 애니메이션을 준다.</li>
+        <li>삼각형  : point light를 사용해서 빛이 나면서 움직일 수 있도록 라이트와 애니메이션을 준다.</li>
+      </ul>
+    </li>
+    <li><strong>2. Button</strong>
+      <ul>
+        <li>시작   : SceneManager.LoadScene(“stage_select”)을 사용해서 버튼을 클릭하면 stage_select 씬으로 넘어가도록 구현했다.</li>
+        <li>조작법 : SceneManager.LoadScene('manipulation.Scene")을 사용해서 버튼을 클릭하면 manipulation_Scene 씬으로 넘어가도록 구현했다.</li>
+      </ul>
+    </li>
+    <li><strong>3. BGM</strong>
+      <ul>
+        <li>BGM은 시작화면, 조작방법설명, stage선택화면 모두 같은 BGM이 이어서 나오게 DontDestroyOnLoad(gameObject)를 사용해서 구현했다.</li>
+      </ul>
+    </li>
+  </ul>
+  </li>
+  <!--게임시작화면 end-->
+
+  <li><strong>게임 시작 화면</strong>
+    <ul>
+      <div class="row">
+          <br>
+        <div class="col-sm-6"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+        <div class="col-sm-6"><img src="/image/네모의꿈.png" alt="네모의꿈타이틀" class="img-responsive"></div>
+      </div>
+      <li>Button : 클릭하면 넘어간다.</li>
+  </ul>
+  </li>
+</ul>
+<!--게임결과 end-->
