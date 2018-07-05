@@ -362,7 +362,7 @@ layout : default
     <li><strong>GAME CLEAR</strong><!--GAME CLEAR-->
       <ul>
         <li>Panel을 이용해서 GameClear시 정지된 화면이 그대로 나오게 했다. 게임진행시에 비활성화 상태였다가 GAMECLEAR 되었을 때 Canvas_Clear의 GameClearPanel을 찾아 활성화시켰다.</li>
-        <li>시작화면으로 가는 버튼과 다시하기 버튼에 버튼을 클릭했을 때 SeneManager.LoadScene('씬 이름")를 사용해서 해당 씬으로 넘어가게 했다.</li>
+        <li>시작화면으로 가는 버튼과 다시하기 버튼에 버튼을 클릭했을 때 SeneManager.LoadScene를 사용해서 해당 씬으로 넘어가게 했다.</li>
         <li>스테이지 내의 친구를 만나게 되면 (충돌, OnColliderEnter) 게임 성공하여 Game.instance.state = Game.STATE.GAMECLEAR로 바껴서 Game.cs의 gameclear 함수가 실행되어 발동했다.</li>
       </ul>
     </li><!--GAME CLEAR end-->
