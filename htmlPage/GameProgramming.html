@@ -286,7 +286,7 @@ layout : default
     </li>
     <li><strong>BGM</strong>
       <ul>
-        <li>BGM은 시작화면, 조작방법설명, stage선택화면 모두 같은 BGM이 이어서 나오게 DontDestroyOnLoad(gameObject)를 사용해서 구현했다.</li>
+        <li>BGM은 시작화면, 조작방법설명, stage선택화면 모두 같은 BGM이 이어서 나오게 DontDestroyOnLoad를 사용해서 구현했다.</li>
       </ul>
     </li>
   </ul>
@@ -370,7 +370,7 @@ layout : default
     <li><strong>GAME OVER</strong><!--GAME Over-->
       <ul>
         <li>Panel을 이용해서 GameOver시 정지된 화면이 그대로 나오게 했다.또한, 게임진행시에 GameOverPanel을 비활성화 상태로, GAMEOVER 되었을 때 Canvas_GO의 GameOverPanel을 찾아 활성화시켰다.</li>
-        <li>시작화면으로 돌아가는 버튼과 스테이지 재시작하는 버튼을 클릭했을 때 SceneManager.LoadScene('씬 이름")를 사용해서 해당 씬으로 넘어가게 했다.</li>
+        <li>시작화면으로 돌아가는 버튼과 스테이지 재시작하는 버튼을 클릭했을 때 SceneManager.LoadScene를 사용해서 해당 씬으로 넘어가게 했다.</li>
         <li>Animator를 사용해서 팔,다리가 날아가 죽는 행동을 만들고 죽었을 때 발동되도록 구현했다. 죽었을 때 애니메이션 발동을 보여주기 위해, 죽은 후 1초 뒤 GameOver가 발동되도록 했다.</li>
         <li>장애물과 충돌, 땅 아래로 추락 혹은 시야가 완전히 좁아졌을 때 발동된다.</li>
       </ul>
