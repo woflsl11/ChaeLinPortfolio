@@ -1,0 +1,90 @@
+        body {
+            background-color: black;
+            font-family: "포천 막걸리체";
+	    font-size:24px;
+	    color:white;
+        }
+
+        header {
+        }
+
+        #title_name {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #main_nav {
+            /*메인네비 디자인 스크립트?ㅋㅋ*/
+            color: white;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            border-radius: 25px;
+            text-align: center;
+            font-family: October Crow;
+            margin: auto;
+            padding: 18px 0;
+            width: 90%; /*네비의 길이*/
+        }
+            #main_nav li {
+                /*메인네비 내용 위치 스크립트*/
+                display: inline;
+                padding: 0px 40px;
+                letter-spacing: 5px;
+                font-size: 28px;
+                font-weight: 900;
+            }
+  ul#main_nav li a{text-decoration:none;}
+        .mySlides {
+            width: 100%;
+            height: 670px;
+            border-radius: 25px;
+        }
+        /* 서브*/
+        .aside{
+            float:left;
+            width:12.5%;
+            margin-right:20px;
+            margin-left:5%;
+            margin-top:2.6%;
+        }
+  button a{text-decoration:none;}
+     /*콘텐츠 부분 */
+     content {
+       margin-top: 2.6%;
+       width:75%;
+       height:100%;
+       float:right;
+       margin-right:5%;
+       padding:1%;
+       border:3px solid white;
+       border-radius:25px;
+     }
+     .picture {display :none;}
+    /*풋 부분 */
+    /*nav ctrl*/
+       ul.nav-ctrl{
+       position:fixed;
+       margin:0;
+       padding:0;
+       right:0;
+       bottom:0;
+       list-style-type:none;
+       border-top:1px solid #fff;
+       border-left:1px solid #fff;
+       border-bottom:none;
+       border-right:none;
+       border-top-left-radius:5px;
+       background-color:#000;
+       //opacity:1;
+       }
+       .li_top ,.li_bottom{
+       float:left;
+       }
+       .nav-ctrl .li_bottom a
+       {
+       color:black;
+       display:inline-block;
+       border-left:2px dashed #fff;
+       border-bottom:none;
+       }

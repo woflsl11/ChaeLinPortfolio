@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>음식</title>
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="음식.css">
+
+</head>
+<body>
+<a id="#top"></a>
+    <!--타이틀-->
+  <a href="../메인.html" style="text-decoration:none"><img id="title_name" src="https://www.kleientertainment.com/sites/default/files/games/dont-starve-together/assets/dont-starve-togethergamelogo.png" width="27.5%" height="275"></a><br>
+
+  <!--메인네비-->
+  <nav>
+    <ul id="main_nav">
+      <li><a href="../게임소개_병진/게임소개.html">Guide</a></li>
+      <li><a href="../몬스터_유진/동물.html">Information</a></li>
+      <li><a href="../캐릭터_채린/캐릭터.html">Character</a></li>
+      <li><a href="../모드_병진/모드.html">Mode</a></li>
+      <li><a href="../갤러리_유진/갤러리.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <!--서브네비-->
+  <div class="aside">
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo1')" class="w3-btn-block w3-left-align">Guide</button>
+        <div id="Demo1" class="w3-accordion-content w3-animate-opacity">
+          <a href="../게임소개_병진/게임소개.html">게임 소개</a>
+          <a href="../조작법_유진/조작법.html">조작법</a>
+        </div>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo2')" class="w3-btn-block w3-left-align">Information</button>
+        <div id="Demo2" class="w3-accordion-content w3-animate-opacity">
+          <a href="../몬스터_유진/동물.html">몬스터</a>
+          <a href="../아이템_채린/아이템.html">아이템</a>
+          <a href="../음식_병진/음식.html">음식</a>
+          <a href="../계절_채린/계절.html">계절</a>
+          <a href="../팁_병진/팁.html">팁</a>
+        </div>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo3')" class="w3-btn-block w3-left-align"><a href="../캐릭터_채린/캐릭터.html" style="">Character</a></button>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo4')" class="w3-btn-block w3-left-align"><a href="../모드_병진/모드.html">Mode</a></button>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo5')" class="w3-btn-block w3-left-align"><a href="../갤러리_유진/갤러리.html">Gallery</a></button>
+    </div>
+  </div>
+    <!--서브_내용부분-->
+    <content>
+<br>
+<div class="w3-row">
+  <div class="w3-col s3 w3-container">
+  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('food');">
+    <img src="냉장고_허기.png" alt="food" style="width:100% ">
+  </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('health');">
+      <img src="냉장고_체력.png" alt="health" style="width:100% ">
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('sanity');">
+      <img src="냉장고_정신.png" alt="sanity" style="width:100%">
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('nocooking');">
+      <img src="요리냄비.png" alt="sanity" style="width:100%">
+    </a>
+  </div>
+</div><br>
+
+<div id="food" class="picture w3-display-container">
+<h3>허기에 좋은 음식</h3>
+  <img src="미트볼.png" width="300px" height="300px"><img src="고기스튜.png" width="300px" height="300px" style="display:inline-block"><img src="꿀바른햄.png" width="300px" height="300px" style="display:inline-block">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+</div>
+
+<div id="health" class="picture w3-display-container">
+<h3>체력에 좋은 음식</h3>
+  <img src="생선튀김.png" width="300px" height="300px"><img src="피에로기.png" width="300px" height="300px"style="display:inline-block"><img src="꿀바른너겟.png" width="300px" height="300px"style="display:inline-block">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+</div>
+
+<div id="sanity" class="picture w3-display-container">
+<h3>정신에 좋은 음식</h3>
+  <img src="사탕.png" width="300px" height="300px"><img src="수박바.png" width="300px"height="300px"style="display:inline-block"><img src="아이스크림.png" width="300px"height="300px"style="display:inline-block">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+
+</div>
+<div id="nocooking" class="picture w3-display-container">
+<h3>비추천 음식</h3>
+  <img src="라따뚜이.png" width="300px" height="300px"><img src="과일잼.png" width="300px"height="300px"style="display:inline-block"><img src="괴물라쟈나.png" width="300px"height="300px"style="display:inline-block">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+
+</div>
+    </content><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--맨 아래-->
+    <footer style="background-color:rgba(20, 11, 11, 0.73);border-top:1px solid rgba(255,255,255,50);clear:both;">
+        <br><br><br>
+        <p style="color:white;margin:auto;text-align:center;height:100px;font-size:40px;font-family:Koverwatch;font-size:20px">PROJECT:ㅇㅊㅇ&nbsp;|&nbsp;조장:남유진&nbsp;|&nbsp;팀원:유병진,이채린&nbsp;|&nbsp;<a href="../사이트맵/사이트맵.html" style="text-decoration:none;color:white;">사이트맵</a>|&nbsp;<a href="../프로젝트/프로젝트.html" style="text-decoration:none;color:white;">프로젝트</a></p>
+    </footer>
+    <!--nav ctrl-->
+    <ul class="nav-ctrl">
+      <li class="li_top">
+        <a href="#top"><img src="dir_up.png" width="45px"></a>
+      <li class="li_bottom">
+        <a href="#bottom"><img src="dir_down.png" width="45px"></a>
+    </ul>
+
+<script src="aside.js"></script>
+<script src="음식.js"></script>
+<a id="bottom">
+</body>
+</html>
