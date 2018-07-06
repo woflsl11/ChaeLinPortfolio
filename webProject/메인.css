@@ -1,7 +1,6 @@
 
-@font-face { font-family: 'October Crow';
-            src:local("/webProject/webfont/October Crow.ttf");   
-            
+@font-face { font-family: October Crow;
+            src: local(/webProject/webfont/October Crow.ttf);
             }
 
 body {
