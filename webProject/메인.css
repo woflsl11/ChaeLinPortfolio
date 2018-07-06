@@ -1,0 +1,85 @@
+﻿    body {
+            background-color: black;
+            font-family: NanumGothic;
+            color:white;
+        }
+
+
+        #title_name {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+  #main_nav {
+    color: white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 25px;
+    text-align: center;
+    font-family: October Crow;
+    margin: auto;
+    padding: 18px 0;
+    width: 90%; /*네비의 길이*/
+  }
+
+            #main_nav li {
+                /*메인네비 내용 위치 스크립트*/
+                display: inline;
+                padding: 0px 40px;
+                letter-spacing: 5px;
+                font-size: 28px;
+                font-weight: 900;
+            }
+
+
+
+  ul#main_nav li a{text-decoration:none; 
+                  color:white;}
+        .mySlides { /*슬라이드*/
+            width: 100%;
+            height: 670px;
+            /*border-radius: 25px;*/
+        }
+        #main_story_button:hover {
+            background-color:crimson;
+        }
+
+
+        /*메인페이지작은 갤러리 속성*/
+       .main_gallery {
+            height: 200px;
+            width: 300px;
+            opacity: 0.4;
+            padding-top:10px;
+        }
+
+            .main_gallery:hover {
+                opacity: 1.0;
+            }
+
+        #main_story_button {
+            border-radius:25px;
+            border:5px solid white;
+            color:white;
+            font-family:Koverwatch;
+            font-size:60px;
+            width:600px;
+            text-align:center;
+            margin:auto;
+            padding-top:13px;
+            padding-bottom:13px;
+        }
+
+        #main_story_button  a{
+            text-decoration:none;
+           color:white;
+        }
+
+        #main_story {
+        margin:auto;
+        width:100%;
+        height:700px; 
+        width: 90%;
+        display:block;
+        }

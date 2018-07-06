@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<!-- 양옆 사이드 맞추는것 margin:auto 나 margin-left:20% 와 같이 퍼센트로 하는게 좋을듯 다른 홈페이지 들어가보니까 다 퍼센트로 되어있더라궁 ㅋㅋㅋ -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>다함께 굶지마</title>
+  <link rel="stylesheet" href="메인.css">
+
+
+</head>
+<body>
+
+    <!--타이틀-->
+    <img id="title_name" src="https://www.kleientertainment.com/sites/default/files/games/dont-starve-together/assets/dont-starve-togethergamelogo.png">
+    <br><br>
+
+    <!--메인네비-->
+    <nav>
+        <ul id="main_nav">
+            <li><a href="게임소개_병진/게임소개.html">Guide</a></li>
+            <li><a href="몬스터_유진/동물.html">Information</a></li>
+            <li><a href="캐릭터_채린/캐릭터.html">Character</a></li>
+            <li><a href="모드_병진/모드.html">Mode</a></li>
+            <li><a href="갤러리_유진/갤러리.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <!--슬라이드쇼-->
+    <br>
+    <div class="w3-content" style="max-width:100%;position:relative;margin:auto">
+        <img class="mySlides" src="슬라이드_맨처음.png" style="width:100%">
+        <img class="mySlides" src="슬라이드_어둠의감시자.png" style="width:100%">
+        <a href="음식_병진/음식.html"><img class="mySlides" src="슬라이드_음식2.png" style="width:100%"></a>
+        <!--<img class="mySlides" src="http://images.akamai.steamusercontent.com/ugc/32976861837155466/D2C7955257DAA553A29F19FA3E654CFF60EF4D7C/" style="width:100%">-->
+
+        <a class="w3-btn-floating" style="position:absolute;top:45%;left:0;color:antiquewhite;font-size:30px;" onclick="plusDivs(-1)"><img src="화살표.png"  width="76" height="127" /></a><!--왼쪽이미지변경-->
+        <a class="w3-btn-floating" style="position:absolute;top:45%;right:0;color:antiquewhite;font-size:30px;" onclick="plusDivs(1)"><img src="화살표_오른.png" width="76" height="127"/></a><!--오른쪽이미지변경-->
+    </div>
+    <br><br>
+    <!--미니갤러리와 처음이세요,많은모드찾아보기 버튼-->
+    <div id="main_icon" style="max-width:100%;">
+    <table style="margin:auto;border-color:white;height:40%;width: 90%;" >
+        <tr>
+            <td><a href="조작법_유진/조작법.html"><img src="처음이세요.png" style="width:90%;text-align:center"></a></td>
+            <!--<td  rowspan="2">
+                <img src="아이콘사이.png">
+            </td>-->
+            <td rowspan="2">
+                <a href="http://store.steampowered.com/app/219740/"><img src="구입하기.png"style="width:90%;text-align:center"></a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="http://steamcommunity.com/app/322330/workshop/"><img src="더많은모드찾아보기.png" style="width:90%;text-align:center"></a></td>
+        </tr>
+    </table>
+     </div> 
+
+
+    <!--간단한 설명부분-->
+    <br><br><br><br><br><br><br><br>
+       
+    <div id="main_story">
+        <img style="position:absolute;z-index:-1;width:100%;height:900px;" src="맥스웰_메인_스토리.png">
+       <br><br><br>
+
+        <p style="font-size:35px;font-weight:600;text-align:center;font-family:Koverwatch;color:white;letter-spacing:3px;"> 
+           <strong style="font-size:60px;font-family:'October Crow';letter-spacing:10px;">STORY</strong><br><br><br>
+          왕좌에 갇혀있다 윌슨과 자리를 바꿔 자유의 몸이 된 맥스웰,<br>하지만 정신력이 낮아져 악몽 괴물들에게 쫓기지만<br><br>
+            화관으로 겨우 정신력을 회복한 후, 빛을 따라가다 왕좌에 갇혀 있어야 할 윌슨을 만난다.<br><br>
+            윌슨은 자신을 속인 맥스웰과 치고박고 싸우다가 모닥불의 불이 꺼지자 겨우 다시 불을 피운 뒤,<br> 서로의 안부를 묻는다.<br><br>
+            이후 윌슨의 청사진과 맥스웰의 본영의 고대서를 이용해 게이트를 만들어 다른 캐릭터를 끌여오는데...<br><br>
+            <strong style="font-family:Koverwatch;color:red;font-size:50px;">"친구, 안색이 안좋구만. 밤이 오기 전에 먹을 걸 찾는게 좋을거야!"</strong>
+            <div id="main_story_button"><a href="게임소개_병진/게임소개.html">게임소개 더알아보기</a></div>
+        </p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--갤러리 소개-->
+    <div style="margin-top:100px;"> 
+        <table style="margin:auto;width:80%;">
+            <caption style="color:white;font-family:'October Crow';font-size:70px;padding-bottom:30px;margin:auto">GALLERY</caption>
+            <tr>
+                <td>
+                   <a href="갤러리_유진/갤러리.html"> <img class="main_gallery" src="갤러리1.png"></a>
+                </td>
+                <td>
+                   <a href="갤러리_유진/갤러리.html"><img class="main_gallery" src="갤러리2.png"></a>
+                </td>
+                <td>
+                    <a href="갤러리_유진/갤러리.html"><img class="main_gallery" src="갤러리3.png"></a>
+                </td>
+                <td>
+                    <a href="갤러리_유진/갤러리.html"><img class="main_gallery" src="갤러리4.png"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="갤러리_유진/갤러리.html"><img class="main_gallery" src="갤러리5.png"></a>
+                </td>
+                <td>
+                    <a href="갤러리_유진/갤러리.html"><img class="main_gallery" src="갤러리6.png"></a>
+                </td>
+                <td>
+                    <a href="갤러리_유진/갤러리.html"><img class="main_gallery" src="갤러리7.png"></a>
+                </td>
+                <td>
+                    <a href="갤러리_유진/갤러리.html"><img class="main_gallery" src="갤러리8.png"></a>
+                </td>
+            </tr>
+        
+        </table>
+    </div>
+
+
+
+    <!--푸터-->
+    <br><br><br><br><br>
+    <footer style="background-color:rgba(20, 11, 11, 0.73);border-top:1px solid rgba(255,255,255,50)">
+        <br><br><br>
+        <p style="color:white;margin:auto;text-align:center;height:100px;font-size:40px;font-family:Koverwatch;font-size:20px">PROJECT:ㅇㅊㅇ&nbsp;|&nbsp;조장:남유진&nbsp;|&nbsp;팀원:유병진,이채린&nbsp;|&nbsp;<a href="사이트맵/사이트맵.html" style="text-decoration:none;color:white;">사이트맵</a></p>
+    </footer>
+    <!----------------------------------------스크립트 데스네-------------------------------------------------------------------------------------------------------------------------------->
+    <script src="메인자바.js"></script>
+    
+</body>
+</html>
