@@ -1,4 +1,8 @@
-﻿    body {
+﻿
+
+@font-face { font-family: 'October Crow'; ) src:url("/webProject/webfont/October Crow.ttf");   }
+
+body {
             background-color: black;
             font-family: NanumGothic;
             color:white;
@@ -18,7 +22,7 @@
     border-radius: 25px;
     text-align: center;
     font-family: October Crow;
-    src:local("/webProject/webfont/October Crow.ttf");    
+    
     margin: auto;
     padding: 18px 0;
     width: 90%; /*네비의 길이*/
