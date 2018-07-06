@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>동물</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="몬스터.css">
+
+</head>
+
+<body class="w3-container">
+    <a id="#top"></a>
+    <!--타이틀-->
+  <a href="../메인.html" style="text-decoration:none"><img id="title_name" src="https://www.kleientertainment.com/sites/default/files/games/dont-starve-together/assets/dont-starve-togethergamelogo.png" width="27.5%" height="275"></a><br>
+
+    <!--메인네비-->
+  <nav>
+    <ul id="main_nav">
+      <li><a href="../게임소개_병진/게임소개.html">Guide</a></li>
+      <li><a href="../몬스터_유진/동물.html">Information</a></li>
+      <li><a href="../캐릭터_채린/캐릭터.html">Character</a></li>
+      <li><a href="../모드_병진/모드.html">Mode</a></li>
+      <li><a href="../갤러리_유진/갤러리.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <!--서브네비-->
+  <div class="aside">
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo1')" class="w3-btn-block w3-left-align">Guide</button>
+        <div id="Demo1" class="w3-accordion-content w3-animate-opacity">
+          <a href="../게임소개_병진/게임소개.html">게임 소개</a>
+          <a href="../조작법_유진/조작법.html">조작법</a>
+        </div>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo2')" class="w3-btn-block w3-left-align">Information</button>
+        <div id="Demo2" class="w3-accordion-content w3-animate-opacity">
+          <a href="../몬스터_유진/동물.html">몬스터</a>
+          <a href="../아이템_채린/아이템.html">아이템</a>
+          <a href="../음식_병진/음식.html">음식</a>
+          <a href="../계절_채린/계절.html">계절</a>
+          <a href="../팁_병진/팁.html">팁</a>
+        </div>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo3')" class="w3-btn-block w3-left-align"><a href="../캐릭터_채린/캐릭터.html" style="">Character</a></button>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo4')" class="w3-btn-block w3-left-align"><a href="../모드_병진/모드.html">Mode</a></button>
+    </div>
+    <div class="w3-accordion w3-light-grey">
+      <button onclick="myFunction('Demo5')" class="w3-btn-block w3-left-align"><a href="../갤러리_유진/갤러리.html">Gallery</a></button>
+    </div>
+  </div>
+    
+    <!--서브_내용부분-->
+    <content>
+        <p style="color:white;font-family:Makgeolli;font-size:70px;margin:5px">동물</p>
+
+        <ul class="w3-navbar w3-black">
+            <li><a class="tablink" onclick="openAnimal(event, 'rabbit');">토끼</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'mole');">두더지</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'butterfly');">나비</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'bird');">새</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'blad_eagle');">대머리독수리</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'catkon');">캣쿤</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'turkey');">칠면조</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'pig');">돼지</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'buffalo');">버팔로</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'toad');">두꺼비</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'tall_bird');">키다리새</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'wasp');">말벌</a></li>
+            <li><a class="tablink" onclick="openAnimal(event, 'bee');">벌</a></li>
+        </ul>
+
+        <div id="rabbit" class="w3-container animal">
+            <img src="토끼.png" width="910" height="205">
+        </div>
+
+        <div id="mole" class="w3-container animal">
+            <img src="두더지.png" width="910" height="230">
+        </div>
+
+        <div id="butterfly" class="w3-container animal">
+            <img src="나비.png " width="910" height="220">
+        </div>
+
+        <div id="bird" class="w3-container animal">
+            <img src="새.png" width="910" height="205">
+        </div>
+
+        <div id="blad_eagle" class="w3-container animal">
+            <img src="대머리독수리.png " width="910" height="205">
+        </div>
+
+        <div id="catkon" class="w3-container animal">
+            <img src="캣쿤.png" width="910" height="205">
+        </div>
+
+        <div id="turkey" class="w3-container animal">
+            <img src="칠면조.png" width="910" height="205">
+        </div>
+
+        <div id="pig" class="w3-container animal">
+            <img src="돼지.png" width="910" height="205">
+        </div>
+
+        <div id="buffalo" class="w3-container animal">
+            <img src="버팔로.png" width="910" height="205">
+        </div>
+
+        <div id="toad" class="w3-container animal">
+            <img src="두꺼비.png" width="910" height="205">
+        </div>
+
+        <div id="tall_bird" class="w3-container animal">
+            <img src="키다리새.png" width="910" height="205">
+        </div>
+
+        <div id="wasp" class="w3-container animal">
+            <img src="말벌.png" width="910" height="205">
+        </div>
+
+        <div id="bee" class="w3-container animal">
+            <img src="벌.png" width="910" height="205">
+        </div>
+
+ <br><br><br>
+
+
+
+        <p style="color:white;font-family:Makgeolli;font-size:70px;margin:5px">괴물</p>
+
+        <ul class="w3-navbar w3-black">
+            <li><a class="tablink1" onclick="openHost(event, 'spider');">거미</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'hound');">사냥개</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Tentacle');">촉수</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Merm');">어인</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Clockwork');">태엽장치</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Lureplant');">미끼식물</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Treeguard');">나무수호신</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Krampus');">크람푸스</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Bearger');">곰소리</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Deerclops');">외눈사슴</a></li>
+            <li><a class="tablink1" onclick="openHost(event, 'Dragonfly');">용파리</a></li>
+        </ul>
+
+        <div id="spider" class="w3-container host">
+            <img src="거미.png" width="910" height="205">
+        </div>
+
+        <div id="hound" class="w3-container host">
+            <img src="사냥개.png" width="900" height="200">
+        </div>
+
+        <div id="Tentacle" class="w3-container host">
+            <img src="촉수.png " width="900" height="200">
+        </div>
+
+        <div id="Merm" class="w3-container host">
+            <img src="어인.png" width="900" height="200">
+        </div>
+
+        <div id="Clockwork" class="w3-container host">
+            <img src="태엽장치.png" width="900" height="200">
+        </div>
+
+        <div id="Lureplant" class="w3-container host">
+            <img src="미끼식물.png " width="900" height="200">
+        </div>
+
+        <div id="Treeguard" class="w3-container host">
+            <img src="나무수호신.png" width="900" height="200">
+        </div>
+
+        <div id="Krampus" class="w3-container host">
+            <img src="크람푸스.png" width="900" height="200">
+        </div>
+
+        <div id="Bearger" class="w3-container host">
+            <img src="곰소리.png" width="900" height="200">
+        </div>
+
+        <div id="Deerclops" class="w3-container host">
+            <img src="외눈사슴.png" width="900" height="200">
+        </div>
+
+        <div id="Dragonfly" class="w3-container host">
+            <img src="용파리.png" width="900" height="200">
+        </div>
+
+        <p style="color:black;font-family:Makgeolli;font-size:70px;margin:5px">빈 공간</p>
+
+
+    </content>
+
+    <!--맨 아래-->
+    <footer style="background-color:rgba(20, 11, 11, 0.73);border-top:1px solid rgba(255,255,255,50);clear:both;">
+        <br><br><br>
+        <p style="color:white;margin:auto;text-align:center;height:100px;font-size:40px;font-family:Koverwatch;font-size:20px">PROJECT:ㅇㅊㅇ&nbsp;|&nbsp;조장:남유진&nbsp;|&nbsp;팀원:유병진,이채린&nbsp;|&nbsp;<a href="../사이트맵/사이트맵.html" style="text-decoration:none;color:white;">사이트맵</a>|&nbsp;<a href="../프로젝트/프로젝트.html" style="text-decoration:none;color:white;">프로젝트</a></p>
+    </footer>
+    <!--nav ctrl-->
+    <ul class="nav-ctrl">
+        <li class="li_top">
+            <a href="#top"><img src="dir_up.png" width="45"></a>
+        <li class="li_bottom">
+            <a href="#bottom"><img src="dir_down.png" width="45"></a>
+    </ul>
+<script src="aside.js"></script>
+<script src="동물.js"></script>
+<script src="괴물.js"></script>
+<a id="bottom"></a>
+</body>
+</html>
