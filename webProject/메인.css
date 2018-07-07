@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family:October_Crow;
-    src: local(/webProject/webfont/October Crow.ttf) format('truetype');
+    font-family:'October_Crow';
+    src: url("/webProject/webfont/October Crow.ttf") format('truetype');
 }
 
 body {
