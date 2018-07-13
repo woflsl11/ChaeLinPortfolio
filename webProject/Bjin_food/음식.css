@@ -1,6 +1,11 @@
-        body {
+@font-face {
+    font-family:'October Crow';
+    src: url("/webProject/webfont/October Crow.ttf") format('truetype');
+}       
+
+body {
             background-color: black;
-            font-family: "Æ÷Ãµ ¸·°É¸®Ã¼";
+            font-family: "í¬ì²œ ë§‰ê±¸ë¦¬ì²´";
 	    font-size:24px;
 	    color:white;
         }
@@ -15,7 +20,7 @@
         }
 
         #main_nav {
-            /*¸ŞÀÎ³×ºñ µğÀÚÀÎ ½ºÅ©¸³Æ®?¤»¤»*/
+            /*ë©”ì¸ë„¤ë¹„ ë””ìì¸ ìŠ¤í¬ë¦½íŠ¸?ã…‹ã…‹*/
             color: white;
             border-top: 3px solid white;
             border-bottom: 3px solid white;
@@ -24,10 +29,10 @@
             font-family: October Crow;
             margin: auto;
             padding: 18px 0;
-            width: 90%; /*³×ºñÀÇ ±æÀÌ*/
+            width: 90%; /*ë„¤ë¹„ì˜ ê¸¸ì´*/
         }
             #main_nav li {
-                /*¸ŞÀÎ³×ºñ ³»¿ë À§Ä¡ ½ºÅ©¸³Æ®*/
+                /*ë©”ì¸ë„¤ë¹„ ë‚´ìš© ìœ„ì¹˜ ìŠ¤í¬ë¦½íŠ¸*/
                 display: inline;
                 padding: 0px 40px;
                 letter-spacing: 5px;
@@ -40,7 +45,7 @@
             height: 670px;
             border-radius: 25px;
         }
-        /* ¼­ºê*/
+        /* ì„œë¸Œ*/
         .aside{
             float:left;
             width:12.5%;
@@ -49,7 +54,7 @@
             margin-top:2.6%;
         }
   button a{text-decoration:none;}
-     /*ÄÜÅÙÃ÷ ºÎºĞ */
+     /*ì½˜í…ì¸  ë¶€ë¶„ */
      content {
        margin-top: 2.6%;
        width:75%;
@@ -61,7 +66,7 @@
        border-radius:25px;
      }
      .picture {display :none;}
-    /*Ç² ºÎºĞ */
+    /*í’‹ ë¶€ë¶„ */
     /*nav ctrl*/
        ul.nav-ctrl{
        position:fixed;
