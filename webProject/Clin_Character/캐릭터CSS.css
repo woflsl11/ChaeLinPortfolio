@@ -1,6 +1,12 @@
 @font-face {
     font-family:'October Crow';
     src: url("/webProject/webfont/October Crow.ttf") format('truetype');
+    
+    @font-face {
+    font-family:'포천 막걸리체';
+    src: url("/webProject/webfont/포천 막걸리체.ttf") format('truetype');
+
+}  
 }  
 
 body {
