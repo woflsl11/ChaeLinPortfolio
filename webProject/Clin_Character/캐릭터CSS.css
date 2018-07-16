@@ -1,13 +1,13 @@
 @font-face {
     font-family:'October Crow';
     src: url("/webProject/webfont/October Crow.ttf") format('truetype');
-    
+
     @font-face {
     font-family:'포천 막걸리체';
     src: url("/webProject/webfont/Makgeolli.ttf") format('truetype');
 
-}  
-}  
+}
+}
 
 body {
             background-color: black;
@@ -93,23 +93,23 @@ body {
         .character_side_sentence {
             /*안에 있는 글씨*/
             text-align: center;
-            height: 23px;
+            height: 18px;
             font-family: 포천 막걸리체;
             font-size: 70px;
             color: lightgray;
             font-weight: 700;
         }
 
-        
+
         .character_infomation {/*캐릭터 아래부분설명부분*/
         width:80%;
         margin-left:9%;
         }
 
         /*--------------------------------------콘텐츠 부분 ----------------------------------------------------*/
- 
+
  /*풋 부분 */
-  
+
   /*nav ctrl*/
   ul.nav-ctrl{
     position:fixed;
@@ -126,11 +126,11 @@ body {
     background-color:#000;
     //opacity:1;
   }
-      
+
   .li_top ,.li_bottom{
     float:left;
   }
-  
+
   .nav-ctrl .li_bottom a{
     color:black;
     display:inline-block;
