@@ -2,11 +2,15 @@
     FILE NAME: navbar.html
   DESCRIPTION: 상단의 네비게이션 바를 정리한 것입니다.
 -->
-<div class="container">
 <nav class="navbar navbar-light bg-light navbar-fixed-top">
+  <div class="container">
       <!-- 좌측의 사이트 제목 -->
       <a class="navbar-brand" href="{{ site.url }}/"><strong>이채린</strong>포트폴리오</a>
 
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       <!-- 홈페이지의 폭이 좁을 경우 모바일용 메뉴로 바뀐다 -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarColor03">
@@ -38,5 +42,5 @@
     </div>
 
   </div>
+  </div>
 </nav>
-</div>
