@@ -6,6 +6,13 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
 
+      <!-- 가운데 CMCLab 로고가 큼지막하게 박힌다/ 모바일에서는 숨겨짐 -->
+  <div id="cmc-nav-banner" class="container-fluid hidden-xs">
+    <a href="{{ site.url }}/">
+      <img src="{{ site.url }}/img/essentials/SKUCMCLab_Logo.png" alt="SKU CMCLab" class="img-responsive center-block" style="height: 100%;"/>
+    </a>
+  </div>
+
     <!-- 홈페이지의 폭이 좁을 경우 모바일용 메뉴로 바뀐다 -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cmc-homepage-menu-collapse">
@@ -15,7 +22,7 @@
       </button>
 
       <!-- 좌측의 사이트 제목 -->
-      <a class="navbar-brand" href="{{ site.url }}/"><strong>CMCLab</strong>@SKU</a>
+      <a class="navbar-brand" href="{{ site.url }}/"><strong>이채린</strong>포트폴리오</a>
     </div>
 
 
@@ -29,7 +36,7 @@
         <li class="dropdown">
           <a href="{{ site.url }}/people" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">제작프로젝트 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ site.url }}/#">소개</a></li>
+            <li><a href="{{ site.url }}/#">웹</a></li>
             <li><a href="{{ site.url }}/#">학부생</a></li>
             <li><a href="{{ site.url }}/#">졸업생</a></li>
           </ul>
