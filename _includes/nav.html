@@ -7,7 +7,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
 
-      <!-- 가운데 CMCLab 로고가 큼지막하게 박힌다/ 모바일에서는 숨겨짐 -->
+      <!-- 로고 -->
   <div id="cmc-nav-banner" class="container-fluid hidden-xs">
     <a href="{{ site.url }}/">
       <img src="{{ site.url }}/image/test_title.png" alt="SKU CMCLab" class="img-responsive center-block" style="height: 100%; height: 120px;"/>
@@ -31,19 +31,20 @@
 
       <!-- 우측의 메뉴들/ <li>태그들이 하나의 메뉴 항목이 된다 -->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}/">HOME</a></li>
-        <li><a href="{{ site.url }}/">소개</a></li>
-        <!-- People의 경우 교수님과 학부생, 졸업생을 구분지어 선택할 수 있도록 한다. id 속성을 활용함 -->
-        <li class="dropdown">
-          <a href="{{ site.url }}/people" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">제작프로젝트 <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ site.url }}/#">웹</a></li>
-            <li><a href="{{ site.url }}/#">학부생</a></li>
-            <li><a href="{{ site.url }}/#">졸업생</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ site.url }}/projects">연구실활동</a></li>
-        <li><a href="{{ site.url }}/papers">제작예정</a></li>
+        <li class="nav-item active"><a class="nav-link" href="http://mmmmyyyypp.cf/" style="padding-right: 10px;">Home <span class="sr-only">(current)</span></li>
+          <li class="nav-item"><a class="nav-link" href="/htmlPage/introduction.html">소개 </a></li>
+          <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="padding-right: 10px;">제작프로젝트</a>
+        <ul class="dropdown-menu" role="menu">
+            <li class="nav-item"> <a class="dropdown-item" href="/webProject/메인.html">웹</a> </li>
+            <li class="nav-item"> <a class="dropdown-item" href="/htmlPage/GameProgramming.html">게임</a> </li>
+            <li class="nav-item"> <a class="dropdown-item" href="/htmlPage/Graphics.html">그래픽스</a> </li>
+            <li class="nav-item"> <a class="dropdown-item" href="/htmlPage/etc.html">기타</a> </li>
+        </ul>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="#" style="padding-right: 10px;">연구실 활동</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" style="padding-right: 10px;">제작예정</a></li>
       </ul>
 
     </div>
