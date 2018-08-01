@@ -6,7 +6,6 @@
 <nav class="navbar navbar-default navbar-fixed-top ">
   <div class="container">
 
-    <!-- 가운데 CMCLab 로고가 큼지막하게 박힌다/ 모바일에서는 숨겨짐-->
     <div id="cmc-nav-banner" class="container-fluid hidden-xs">
       <a href="{{ site.url }}/">
         이채린
@@ -33,13 +32,15 @@
       <!-- 우측의 메뉴들/ <li>태그들이 하나의 메뉴 항목이 된다 -->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ site.url }}/">HOME</a></li>
+        <li><a href="{{ site.url }}/htmlPage/introduction">소개</a></li>
         <!-- People의 경우 교수님과 학부생, 졸업생을 구분지어 선택할 수 있도록 한다. id 속성을 활용함 -->
         <li class="dropdown">
-          <a href="{{ site.url }}/people" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PEOPLE <span class="caret"></span></a>
+          <a href="{{ site.url }}/people" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">프로젝트 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ site.url }}/people">a</a></li>
-            <li><a href="{{ site.url }}/people#cmc-people-researcher">b</a></li>
-            <li><a href="{{ site.url }}/people#cmc-people-alumni">c</a></li>
+            <li><a href="{{ site.url }}/htmlPage/introduction">웹</a></li>
+            <li><a href="{{ site.url }}/htmlPage/GameProgramming">게임</a></li>
+            <li><a href="{{ site.url }}/htmlPage/Graphics">그래픽스</a></li>
+            <li><a href="{{ site.url }}/htmlPage/etc">기타</a></li>
           </ul>
         </li>
         <li><a href="{{ site.url }}/projects">PROJECTS</a></li>
