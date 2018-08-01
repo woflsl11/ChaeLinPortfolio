@@ -1,26 +1,35 @@
+
+
 <!DOCTYPE html>
-
 <html>
- {% include head.html %}
-<body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }} | CMCLab@SKU</title>
+
+    <!-- IMPORT CSS/JS IMPORT -->
+    {% include head.html %}
+    <!-- IMPORT CSS/JS IMPORT: END -->
+
+  </head>
+  <body>
+
 {% include header.html %}
- {% include nav.html %}
+    <!-- NAVIGATION BAR -->
+    {% include nav.html %}
+    <!-- NAVIGATION BAR: END -->
 
- <!--contain start-->
- <div class="container">
-    <section id="main_content">
-     <br><br>
-  {{ content }}
-       </section>
-</div>
-  <!--contain end-->
-
- {% include  upbutton.html %}
-
- {% include  footer.html %}
-  {% include javascript.html %}
-</body>
+    <!-- CONTENTS CONTAINER -->
+    {{ content }}
+    <!-- CONTENTS CONTAINER: END -->
 
 
-
+    {% include  upbutton.html %}
+    <!-- FOOTER -->
+    {% include footer.html %}
+    <!-- FOOTER: END -->
+{% include javascript.html %}
+  </body>
 </html>
