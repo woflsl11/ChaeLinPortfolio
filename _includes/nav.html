@@ -1,51 +1,56 @@
+<!--
+    FILE NAME: navbar.html
+  DESCRIPTION: 상단의 네비게이션 바를 정리한 것입니다.
+-->
 
+<nav class="navbar navbar-default navbar-fixed-top ">
+  <div class="container">
 
+    <!-- 가운데 CMCLab 로고가 큼지막하게 박힌다/ 모바일에서는 숨겨짐
+    <div id="cmc-nav-banner" class="container-fluid hidden-xs">
+      <a href="{{ site.url }}/">
+        <img src="{{ site.url }}/img/essentials/SKUCMCLab_Logo.png" alt="SKU CMCLab" class="img-responsive" style="height: 100%;"/>
+      </a>
+    </div> -->
 
+    <!-- 홈페이지의 폭이 좁을 경우 모바일용 메뉴로 바뀐다 -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cmc-homepage-menu-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <div class="container">
-
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span></button>
-
-     <div class="navbar-header">
-       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-         <span class="sr-only">Toggle navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
-       <a class="navbar-brand" href="#">Brand</a>
-     </div>
-
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="http://mmmmyyyypp.cf/" style="padding-right: 10px;">Home <span class="sr-only">(current)</span></a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/htmlPage/introduction.html">소개 </a>
-        </li>
-
-     <li class="nav-item dropdown ">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="padding-right: 10px;">제작프로젝트</a>
-      <ul class="dropdown-menu" role="menu">
-          <li class="nav-item"> <a class="dropdown-item" href="/webProject/메인.html">웹</a> </li>
-          <li class="nav-item"> <a class="dropdown-item" href="/htmlPage/GameProgramming.html">게임</a> </li>
-          <li class="nav-item"> <a class="dropdown-item" href="/htmlPage/Graphics.html">그래픽스</a> </li>
-          <li class="nav-item"> <a class="dropdown-item" href="/htmlPage/etc.html">기타</a> </li>
-      </ul>
-    </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#" style="padding-right: 10px;">연구실 활동</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" style="padding-right: 10px;">제작예정</a>
-        </li>
-      </ul>
-  </div>
-
+      <!-- 좌측의 사이트 제목 -->
+      <!--<a class="navbar-brand" href="{{ site.url }}/"><strong>CMCLab</strong>@SKU</a>-->
+      <div id="cmc-nav-banner" class="container-fluid hidden-xs">
+        <a href="{{ site.url }}/">
+          <img src="{{ site.url }}/img/essentials/SKUCMCLab_Logo.png" alt="SKU CMCLab" class="img-responsive" style="height: 100%; padding:15px"/>
+        </a>
       </div>
+
+    </div>
+
+
+    <div class="collapse navbar-collapse cmc-nav-list" id="cmc-homepage-menu-collapse">
+
+      <!-- 우측의 메뉴들/ <li>태그들이 하나의 메뉴 항목이 된다 -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{ site.url }}/">HOME</a></li>
+        <!-- People의 경우 교수님과 학부생, 졸업생을 구분지어 선택할 수 있도록 한다. id 속성을 활용함 -->
+        <li class="dropdown">
+          <a href="{{ site.url }}/people" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PEOPLE <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="{{ site.url }}/people">a</a></li>
+            <li><a href="{{ site.url }}/people#cmc-people-researcher">b</a></li>
+            <li><a href="{{ site.url }}/people#cmc-people-alumni">c</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ site.url }}/projects">PROJECTS</a></li>
+        <li><a href="{{ site.url }}/papers">PAPERS</a></li>
+      </ul>
+
+    </div>
+
+  </div>
 </nav>
