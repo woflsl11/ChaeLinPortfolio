@@ -1,0 +1,18 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* BASIC ELEMENTS */
+@media (max-width: 767px) {
+  /* works on @xs; small display(mobile) */
+  body {
+    padding-top: 75px;
+  }
+}
+@media (min-width: 768px) {
+  /* works on general display(desktop) */
+  body {
+    /* padding-top is 75 + div#cmc-nav_banner.height */
+    padding-top: 195px;
+  }
+}
