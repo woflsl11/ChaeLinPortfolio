@@ -15,6 +15,11 @@
     /* padding-top is 75 + div#cmc-nav_banner.height */
     padding-top: 195px;
   }
+
+img.mfc2{
+  margin: 0;
+}
+
 }
 @media (max-width: 767px) {
   div.cmc-nav-list{
