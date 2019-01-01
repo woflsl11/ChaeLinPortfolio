@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>이채린포트폴리오</title>
+
+    <!-- IMPORT CSS/JS IMPORT -->
+    
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--화면창조절-->
+
+
+   <div class="container">
+  <title>이채린</title>
+</div>
+
+
+
+  <link rel="stylesheet" href="http://localhost:4000/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://localhost:4000/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="http://localhost:4000/css/mycss.css">
+
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+
+
+</head>
+
+    <!-- IMPORT CSS/JS IMPORT: END -->
+
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <!--
+    FILE NAME: navbar.html
+  DESCRIPTION: 상단의 네비게이션 바를 정리한 것입니다.
+-->
+
+<nav class="navbar navbar-default navbar-fixed-top ">
+  <div class="container">
+
+    <div id="cmc-nav-banner" class="container-fluid hidden-xs">
+
+    </div>
+
+    <!-- 홈페이지의 폭이 좁을 경우 모바일용 메뉴로 바뀐다 -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#homepage-menu-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="http://localhost:4000/" style="padding-top:30px"><strong>이채린 포트폴리오</strong></a>
+      <!-- 좌측의 사이트 제목 -->
+
+    </div>
+
+
+    <div class="collapse navbar-collapse cmc-nav-list" id="homepage-menu-collapse">
+
+      <!-- 우측의 메뉴들/ <li>태그들이 하나의 메뉴 항목이 된다 -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://localhost:4000/">HOME</a></li>
+        <li><a href="http://localhost:4000/htmlPage/introduction">소개</a></li>
+
+        <li class="dropdown">
+          <a href="http://localhost:4000/people" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">프로젝트 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://localhost:4000/htmlPage/pongdang.html">졸업작품(퐁당!)</a></li>
+            <li><a href="http://localhost:4000/htmlPage/webprogram.html">웹프로그래밍(1)</a></li>
+            <li><a href="http://localhost:4000/htmlPage/webprogram_pokemon">웹프로그래밍(2)</a></li>
+            <li><a href="http://localhost:4000/htmlPage/GameProgramming">게임프로그래밍(1)</a></li>
+            <li><a href="http://localhost:4000/htmlPage/pisgame">게임프로그래밍(2)</a></li>
+            <li><a href="http://localhost:4000/htmlPage/Graphics">컴퓨터그래픽스(2)</a></li>
+            <li><a href="http://localhost:4000/htmlPage/ImageProcessing">영상처리</a></li>
+            <li><a href="http://localhost:4000/htmlPage/MFC2">멀티미디어프로그래밍(2)</a></li>
+            <li><a href="http://localhost:4000/htmlPage/video">영상제작</a></li>
+            <li><a href="http://localhost:4000/htmlPage/plan">기획</a></li>
+          </ul>
+        </li>
+        <li><a href="http://localhost:4000/htmlPage/cmclabcl">연구실프로젝트</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+
+    <!-- NAVIGATION BAR: END -->
+
+    <!-- CONTENTS CONTAINER -->
+    <div class="container">
+
+  <div class="page-header">
+    <h1>Opencv를 이용한 영상처리 과제 <small>영상처리</small></h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-6"><img src="/image/imageprocessing/원본.jpg" alt="원본이미지" class="img-responsive"></div>
+    <div class="col-sm-6"><img src="/image/imageprocessing/소벨_수평.jpg" alt="소벨" class="img-responsive"></div>
+  </div>
+
+  <h3>간단한 요약</h3>
+  <ul>
+    <li><strong>제목 : OpenCV를 이용한 영상처리 과제</strong></li>
+    <li>개발툴 : OpenCV</li>
+    <li>플랫폼 : PC </li>
+    <li> 영상처리 수업에서는 OpenCV를 이용하여 진행했습니다. OpenCV는 영상처리를 위한 많은 함수가 존재합니다. 저는 OpenCV에서 제공하는 함수를 이용해서 과제를 진행했습니다.  </li>
+  </ul>
+  <br>
+
+
+  <h4>원본이미지</h4>
+  <img src="/image/imageprocessing/원본.jpg" alt="원본이미지" class="img-responsive">
+
+
+  <h4>GrayScale</h4>
+  <img src="/image/imageprocessing/회색조.jpg" alt="회색조" class="img-responsive">
+
+  <h4>Binary</h4>
+  <img src="/image/imageprocessing/이진화.jpg" alt="이진" class="img-responsive">
+
+  <h4>Equalize(GrayScale)</h4>
+  <img src="/image/imageprocessing/평활화.jpg" alt="평활화_회색조" class="img-responsive">
+  <div class="row">
+    <div class="col-sm-6"><img src="/image/imageprocessing/평활화_히스토그램회색조전.jpg" alt="평활화_회색조" class="img-responsive"></div>
+    <div class="col-sm-6"><img src="/image/imageprocessing/평활화_히스토그램회색조후.jpg" alt="평활화_회색조" class="img-responsive"></div>
+  </div>
+
+  <h4>Equalize(Color)</h4>
+  <img src="/image/imageprocessing/평활화_완성컬러.jpg" alt="평활화_컬러" class="img-responsive">
+
+  <h4>Median Filtering</h4>
+  <img src="/image/imageprocessing/미디안필터.jpg" alt="미디안필터" class="img-responsive">
+
+  <h4>Minimax Filtering(GrayScale)</h4>
+  <div class="row">
+    <div class="col-sm-6"><img src="/image/imageprocessing/민_회색조.jpg" alt="평활화_회색조" class="img-responsive"></div>
+    <div class="col-sm-6"><img src="/image/imageprocessing/맥스_회색조.jpg" alt="평활화_회색조" class="img-responsive"></div>
+  </div>
+
+  <h4>Minimax Filtering(Color)</h4>
+  <div class="row">
+    <div class="col-sm-6"><img src="/image/imageprocessing/민_컬러.jpg" alt="평활화_회색조" class="img-responsive"></div>
+    <div class="col-sm-6"><img src="/image/imageprocessing/맥스_컬러.jpg" alt="평활화_회색조" class="img-responsive"></div>
+  </div>
+
+  <h4>Bluring </h4>
+  <img src="/image/imageprocessing/블러링.jpg" alt="블러링" class="img-responsive">
+
+  <h4>Sobel</h4>
+  <div class="row">
+    <div class="col-sm-6"><img src="/image/imageprocessing/소벨_수직.jpg" alt="평활화_회색조" class="img-responsive"></div>
+    <div class="col-sm-6"><img src="/image/imageprocessing/소벨_수평.jpg" alt="평활화_회색조" class="img-responsive"></div>
+  </div>
+  <img src="/image/imageprocessing/소벨.jpg" alt="소벨" class="img-responsive">
+
+</div>
+
+    <!-- CONTENTS CONTAINER: END -->
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <!-- FOOTER -->
+    <footer>
+<hr>
+  <p style="text-align: center"> ^^</p>
+
+</footer>
+
+    <!-- FOOTER: END -->
+<!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+    <script src="/js/bootstrap.js"></script>
+
+
+  </body>
+</html>
