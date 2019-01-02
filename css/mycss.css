@@ -8,16 +8,23 @@
   body {
     padding-top: 75px;
   }
+  
+
 }
 @media (min-width: 768px) {
   /* works on general display(desktop) */
   body {
     /* padding-top is 75 + div#cmc-nav_banner.height */
     padding-top: 120px;
+    
   }
 
 img.mfc2{
   margin: 0;
+}
+
+div.container{
+  width: 1000px;
 }
 
 }
@@ -27,9 +34,22 @@ img.mfc2{
   }
 }
 
+
 @media (min-width: 768px) {
   div.cmc-nav-list{
     padding-top: 40px
   }
 
 }
+
+
+@media (max-width: 767px) {
+  div.introduction_img{
+    padding-left: 100px;
+  }
+  div.introduction_font{
+    font-size :0.8em;
+  }
+}
+
+
