@@ -8,7 +8,13 @@
   body {
     padding-top: 75px;
   }
-  
+  img.image_title{
+    width:100%;
+  }
+
+  h3{
+    font-size: 0.8em;
+  }
 
 }
 @media (min-width: 768px) {
@@ -16,7 +22,10 @@
   body {
     /* padding-top is 75 + div#cmc-nav_banner.height */
     padding-top: 120px;
-    
+  }
+
+  img.image_title{
+    width:90%;
   }
 
 img.mfc2{
@@ -51,5 +60,3 @@ div.container{
     font-size :0.8em;
   }
 }
-
-
