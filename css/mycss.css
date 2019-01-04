@@ -12,8 +12,8 @@
     width:100%;
   }
 
-  h3{
-    font-size: 0.8em;
+  h3.index_h3{
+    font-size: 1.3em;
   }
 
 }
@@ -59,4 +59,26 @@ div.container{
   div.introduction_font{
     font-size :0.8em;
   }
+}
+
+/* winterisCold_  */
+#columns{
+  column-width:350px;
+  column-gap: 15px;
+}
+#columns figure{
+  display: inline-block;
+ 
+  margin:0;
+  margin-bottom: 15px;
+  padding:10px;
+  box-shadow: 2px 2px 5px rgba(105, 101, 101, 0.5);
+}
+#columns figure img{
+  width:100%;
+}
+#columns figure figcaption{
+  border-top:1px solid rgba(0,0,0,0.2);
+  padding:10px;
+  margin-top:11px;
 }
