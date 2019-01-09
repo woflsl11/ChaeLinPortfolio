@@ -5736,6 +5736,7 @@ button.close {
   position: relative;
   width: auto;
   margin: 10px;
+  z-index: 1090;
 }
 .modal-content {
   position: relative;
